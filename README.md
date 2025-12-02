@@ -1,16 +1,61 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Weather Application built using **React.js** that displays real-time weather information for any city. It fetches data from the **OpenWeatherMap API** and presents the results in a clean, user-friendly UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Search weather by city name
+- Displays:
+  - Temperature
+  - Weather condition (Clear, Clouds, Rain, etc.)
+  - Humidity
+  - Wind speed
+- Dynamic weather icons
+- Fully responsive UI
 
-## React Compiler
+---
+## 📸 Project UI Screenshot
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![App UI](./src/assets/snapUI.png)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **React.js**
+- **CSS**
+- **OpenWeatherMap API**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 📂 Project Structure
+Weather-App/
+│
+├── public/
+│ └── index.html
+│
+├── src/
+│ ├── assets/ # Icons and images
+│ ├── components/ # Reusable components
+│ ├── Weather.css # Styling
+│ ├── Weather.jsx # Main component
+│ └── App.jsx
+│
+└── package.json
+
+
+---
+
+
+
+
+The app will start on http://localhost:3000/
+
+---
+
+
+
+
+👩‍💻 Author
+
+Muskan Patel  
+GitHub: MuskanPatel0027
