@@ -10,5 +10,11 @@
 .app {
   min-height: 100vh;
   display: grid;
-  background: #e2d4ff;
+  /* background: #e2d4ff; */
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;       /* image covers entire screen */
+  background-position: center;  /* centered */
+  background-repeat: no-repeat; /* no repeating */
+  height: 100vh;                /* full height */
+  width: 100%;
 }
