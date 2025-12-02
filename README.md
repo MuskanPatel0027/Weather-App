@@ -44,16 +44,26 @@ Weather-App/
 
 
 ---
-
-
-
-
-The app will start on http://localhost:3000/
-
 ---
 
+## 🔧 Installation & Setup
 
+```bash
+# Clone the repository
+git clone https://github.com/MuskanPatel0027/Weather-App
 
+# Move into the project folder
+cd Weather-App
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+The app will start on http://localhost:3000/.
+
+---
 
 👩‍💻 Author
 
