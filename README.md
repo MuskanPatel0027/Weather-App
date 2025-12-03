@@ -25,25 +25,7 @@ A simple and responsive Weather Application built using **React.js** that displa
 - **OpenWeatherMap API**
 
 
----
 
-## 📂 Project Structure
-Weather-App/
-│
-├── public/
-│ └── index.html
-│
-├── src/
-│ ├── assets/ # Icons and images
-│ ├── components/ # Reusable components
-│ ├── Weather.css # Styling
-│ ├── Weather.jsx # Main component
-│ └── App.jsx
-│
-└── package.json
-
-
----
 ---
 
 ## 🔧 Installation & Setup
