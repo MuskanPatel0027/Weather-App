@@ -73,22 +73,22 @@ const Weather = () => {
         <div className='weather'>
             <div className="search-bar">
                 <input ref={inputRef} type="text" placeholder='Search' />
-                <img src={search_icon} onClick={() => search(inputRef.current.value)} alt="search" />
+                <img rel="preload" src={search_icon} onClick={() => search(inputRef.current.value)} alt="search" />
             </div>
             {weatherData ? <>
-                <img src={weatherData.icon} className='weather-icon' alt="weather-icon" />
+                <img rel="preload" src={weatherData.icon} className='weather-icon' alt="weather-icon" />
                 <p className='temperature'>{weatherData.temperature}°c</p>
                 <p className='location'>{weatherData.location}</p>
                 <div className="weather-data">
                     <div className="col">
-                        <img src={humidity_icon} alt="humidity" />
+                        <img rel="preload" src={humidity_icon} alt="humidity" />
                         <div>
                             <p>{weatherData.humidity} %</p>
                             <span>Humidity</span>
                         </div>
                     </div>
                     <div className="col">
-                        <img src={wind_icon} alt="wind-icon" />
+                        <img rel="preload" src={wind_icon} alt="wind-icon" />
                         <div>
                             <p>{weatherData.windSpeed} km/h</p>
                             <span>Wind Speed</span>

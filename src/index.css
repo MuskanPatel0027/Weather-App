@@ -9,7 +9,8 @@
 
 .app {
   min-height: 100vh;
+  min-width: 100vh;
   display: grid;
   background: #e2d4ff;
- 
+  place-items: center;
 }
